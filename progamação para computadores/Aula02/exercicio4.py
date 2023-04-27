@@ -1,4 +1,5 @@
-import math
+import os, math
+os.system('cls' if os.name == 'nt' else 'clear')
 
 print('Equação de segundo grau')
 print('Informe os coeficientes:')
