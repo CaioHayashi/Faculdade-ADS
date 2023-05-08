@@ -65,7 +65,7 @@ while True:
 
         case '2':
             print("[2] - sobre")
-            print('Análise e Desenvolvimento de Sistemas \nProgramação para Computadores \n\nCaio Tsuyoshi Hayashi - 32784601\nJosé Anderson do Nascimento da Silva - 33894892\nLeonardo Amorim Bernardo - 32783361\nFelipe Moraes dos Santos - 33894663 \nDavid')
+            print('Análise e Desenvolvimento de Sistemas \nProgramação para Computadores \n\nCaio Tsuyoshi Hayashi - 32784601\nJosé Anderson do Nascimento da Silva - 33894892\nLeonardo Amorim Bernardo - 32783361\nFelipe Moraes dos Santos - 33894663 \nDavi Lopes Garcia dos Passos - 32593520')
             if input('Voltar? ') in 'sS':
                 continue
             else:
