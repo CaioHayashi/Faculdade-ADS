@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,500&display=swap");
+
+* {
+	@apply m-0 p-0 box-border;
+}
+
+body {
+	@apply bg-slate-200;
+}
+
+h2 {
+	@apply my-10;
+}
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+a:focus {
+	@apply animate-[fadeIn] text-gray-400;
+}
+
+p {
+	@apply text-gray-500;
+}
+
+section {
+	@apply m-auto my-10 w-3/5;
+}
+
+.container-card {
+	@apply flex gap-5 flex-wrap;
+}
+
+.card {
+	@apply bg-slate-100 h-96 w-64 animate-fadeIn;
+}
+
+.img-card {
+	@apply w-full h-3/4 bg-slate-400;
+}
+
+.text-card {
+	@apply p-3 text-xs italic;
+}
