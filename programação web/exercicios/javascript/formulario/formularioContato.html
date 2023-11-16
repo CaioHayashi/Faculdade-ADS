@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<style>
+		body {
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.container-form {
+			background-color: #8b4512;
+			width: 500px;
+			color: white;
+			padding: 10px 25px;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			border-radius: 5px;
+		}
+
+		.header-form {
+			text-align: center;
+			border-bottom: 3px solid black;
+		}
+
+		.main-form {
+			display: grid;
+			grid-template-columns: auto auto;
+			text-align: end;
+			gap: 10px;
+			margin: 20px;
+		}
+
+		.main-form > input,
+		select,
+		textarea {
+			background-color: #f5deb4;
+			width: 300px;
+			padding: 5px;
+		}
+
+		button {
+			color: white;
+			border: none;
+			background-color: black;
+			width: 70px;
+			padding: 5px;
+		}
+
+		label,
+		p {
+			font-size: 0.8rem;
+			text-shadow: 2px 2px 2px black;
+		}
+	</style>
+	<body>
+		<section>
+			<form class="container-form">
+				<div class="header-form">
+					<h2>Formulário de Contato</h2>
+					<p>Preencha os Campos</p>
+				</div>
+
+				<div class="main-form">
+					<label for="name">Nome:</label>
+					<input type="text" placeholder="Nome Completo" name="name" />
+					<label for="email">E-mail:</label>
+					<input type="text" placeholder="E-mail Válido" name="email" />
+					<label for="topic">Assunto:</label>
+					<select name="topic">
+						<option value=""></option>
+						<option value="">JS</option>
+					</select>
+					<label for="message">Mensagem</label>
+					<textarea name="message" id="" cols="30" rows="10"></textarea>
+					<div></div>
+					<button>Enviar</button>
+				</div>
+			</form>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 4rem;
+}
+
+.meunome {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50pt;
+    background-color: black;
+    border-radius: 130px;
+    width: 500px;
+    color: white;
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    margin: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 500px;
+}
+
+input {
+    padding: .5rem;
+}
+
+button {
+    width: fit-content;
+    border: none;
+    padding: .5rem 1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.res {
+    min-height: 1.5rem;
+}

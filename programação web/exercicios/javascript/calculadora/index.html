@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<form id="form-calc" class="calc">
+			<p>
+				<label for="value-1">Valor 1:</label>
+				<input type="text" name="value-1" id="value-1" />
+			</p>
+			<p>
+				<label for="value-2">Valor 2:</label>
+				<input type="text" name="value-2" id="value-2" />
+			</p>
+
+			<label for="op">Obções: </label>
+			<p><input type="radio" value="+" name="op"/ checked> <span>SOMA</span></p>
+			<p><input type="radio" value="-" name="op"/> <span>SUBTRAÇÃO</span></p>
+			<p><input type="radio" value="*" name="op"/> <span>MULTIPLICAÇÃO</span></p>
+			<p><input type="radio" value="/" name="op"/> <span>DIVISÃO</span></p>
+            
+            <label for="result">Resultado:</label>
+            <p>
+                <input type="text" id="res" disabled>
+            </p>
+            <button type="submit">calcular</button>
+		</form>
+		<script src="script.js"></script>
+	</body>
+</html>

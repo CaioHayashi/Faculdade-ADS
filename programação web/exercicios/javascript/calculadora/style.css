@@ -1,0 +1,36 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16pt;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.calc {
+	width: 400px;
+	padding: 30px;
+	border: 22px double red;
+}
+
+input[type="text"] {
+	font-size: 16pt;
+	padding: 4px 8px;
+	background-color: rgb(255, 255, 116);
+	border: 1px solid black;
+	text-align: end;
+}
+
+label {
+	font-weight: bold;
+}
+
+p {
+	margin: 8px 0;
+}
